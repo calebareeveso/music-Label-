@@ -99,7 +99,7 @@
 
 
    /*Vary smaller screens  */
-   @media (max-width:350px){
+   @media (max-width:400px){
     .show-now {
       display: block!important;
         }
