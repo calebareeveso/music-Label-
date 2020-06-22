@@ -50,7 +50,7 @@ function showSlide(n) {
   // setTimeout(showSlides, 2000); 
 
 }
-setTimeout(function myload(){  document.querySelector(".overlay").style.transform = "translateY(-100%)";
+setTimeout(function myload(){  document.querySelector(".overlay").style.transform = "translateY(-200%)";
 myfunction();
 },2000);
 

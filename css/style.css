@@ -44,6 +44,14 @@
 .yah {
   width: 80%!important;height: 50%!important;position: absolute!important;left:10%!important;right:10%!important;top:20%!important; 
 }
+.r-top {
+  border-top-right-radius: 20px!important;
+  border-top-left-radius: 20px!important;
+}
+.r-down {
+  border-bottom-right-radius: 20px!important;
+  border-bottom-left-radius: 20px!important;
+}
 .hover:hover {
   color: #E43F5A!important;
 }
@@ -56,9 +64,15 @@ background-size: cover;
   border-radius: 0px!important;
 }
 .space {
-  padding-top:20px ;
+  padding:20px 0; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid #36639b;
+}
+.spaces {
+  padding:20px 0; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   border-bottom: 1px solid #36639b;
 }
 .small {
@@ -162,7 +176,7 @@ padding:5% 5%;}
 }
 .smoothbtn {
   opacity: 1!important;
-  bottom: 30px!important;
+  bottom: 60px!important;
 
 }
 #myBtn {

@@ -30,9 +30,7 @@
     }
 @media (max-width:1000px){
     
-    .slideshow-container {
-        height: 60vh!important;
-      }
+   
       .hng-text{
           font-size: 15px!important;
       }
@@ -92,6 +90,22 @@
         .size {
             height: 20px!important;
         }
+  }
+
+  /* small screens end  */
+  .show-now {
+      display: none!important;
+  }
+
+
+   /*Vary smaller screens  */
+   @media (max-width:350px){
+    .show-now {
+      display: block!important;
+        }
+ .none-small  {
+    display: none!important;
+}
   }
 
   /* small screens end  */
